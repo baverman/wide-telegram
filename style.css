@@ -1,0 +1,35 @@
+.tg_head_split {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.im_page_wrap {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.tg_head_logo_wrap, .im_dialogs_col_wrap {
+    width: 25% !important;
+}
+
+.im_history_col_wrap, .tg_head_main_wrap {
+    width: 75% !important;
+}
+
+.im_message_wrap {
+    max-width: none !important;
+    margin: 0 4rem !important;
+}
+
+.im_send_panel_wrap {
+    max-width: none !important;
+    margin: 0 4rem !important;
+}
+
+.im_send_form {
+    max-width: none !important;
+}
+
+.footer_empty {
+    height: 0 !important;
+}
