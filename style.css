@@ -1,35 +1,45 @@
-.tg_head_split {
+.chatlist li {
+    border-radius: 5px !important;
+}
+
+.bubble .bubble-content, .chat-input-wrapper {
+    border-radius: 5px !important;
+}
+
+.bubble-tail {
+    display: none !important;
+}
+
+.bubble.is-out {
+    flex-direction: inherit !important;
+}
+
+.bubble.is-out .bubble-content-wrapper {
+    transform: scale(1) translateX(0) !important;
+}
+
+.bubbles-inner.is-chat .is-in .bubble-content-wrapper {
+    margin-left: 0 !important;
+}
+
+.bubbles-inner {
+    max-width: 80% !important;
+    width: 100% !important;
+}
+
+.chat .chat-input {
     width: 100% !important;
     max-width: none !important;
 }
 
-.im_page_wrap {
-    width: 100% !important;
+.chat-input-container {
     max-width: none !important;
 }
 
-.tg_head_logo_wrap, .im_dialogs_col_wrap {
-    width: 25% !important;
-}
-
-.im_history_col_wrap, .tg_head_main_wrap {
-    width: 75% !important;
-}
-
-.im_message_wrap {
-    max-width: none !important;
-    margin: 0 4rem !important;
-}
-
-.im_send_panel_wrap {
-    max-width: none !important;
-    margin: 0 4rem !important;
-}
-
-.im_send_form {
+.message {
     max-width: none !important;
 }
 
-.footer_empty {
-    height: 0 !important;
+.chat-input {
+    --padding-bottom: 0.5rem !important;
 }
